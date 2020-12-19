@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('background6.png');
+    background-image: url('../images/background6.png');
 }
 
 .header{
@@ -34,6 +34,8 @@ body {
 
 }
 
+
+
 .logo{
     font-size: 1.2rem;
     margin-right: 20%;
@@ -58,7 +60,7 @@ body {
     height: 35rem;
     width: 53%;
     border-radius: 0.7rem;
-
+    transition: 4s;
 
 }
 
