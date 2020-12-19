@@ -1,9 +1,16 @@
+const slideShows = document.querySelectorAll('.slide');
+console.log(slideShows.length);
 
-const logo = document.querySelector('.logo');
-const sideNav = document.querySelector('.nav');
+let index = 0;
+slideShows[0].classList.add('active');
 
-logo.onclick = () =>{
-    
-    console.log('it works');
-    sideNav.classList.toggle('open');
-}
+setInterval(()=>{
+    index++;
+    slideShows.forEach(slide=>{
+        if (index === slideShows.length) index = 0;
+        slide.classList.remove('active');
+
+    })
+slideShows[index].classList.add('active');
+
+},7000);

@@ -67,6 +67,8 @@ body {
     align-self: center;
 }
 
+.mySlides {display:none;}
+
 /* mobile view */
 @media only screen and (max-width: 460px) {
     /* For mobile phones: */

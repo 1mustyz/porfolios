@@ -134,7 +134,13 @@ body {
     color: white;
 }
 
+.slide {
+    display: none;
+  }
 
+  .slide.active {
+    display: block;
+  }
 /* mobile view */
 @media only screen and (max-width: 460px) {
     /* For mobile phones: */
